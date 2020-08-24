@@ -47,26 +47,29 @@
 								<header class="major">
 									<!--<span class="date">April 25, 2017</span>-->
 									<!--<h1><a href="#">blah blah blah</a></h1>-->
-									<p style="font-style: normal;">My work at Goddard is supported by <a href="https://seec.gsfc.nasa.gov/">SEEC</a>, the Sellers Exoplanet Environments Collaboration. My SEEC work is cross-disciplinary, as I collaborate with researchers in my primary appointment in the <a href="https://science.gsfc.nasa.gov/solarsystem/planetarysystems/">Planetary Systems Lab</a> in the Solar System Exploration Division, as well as the <a href="https://science.gsfc.nasa.gov/astrophysics/exoplanets/">Exoplanets and Stellar Astrophysics Lab</a> in the Astrophysics Science Division. 
+									<p style="font-style: normal;"> My graduate school work (when I'm not taking classes or teaching labs) builds on the research I conducted while I was at NASA Goddard being supported by <a href="https://seec.gsfc.nasa.gov/">SEEC</a>, the Sellers Exoplanet Environments Collaboration. My SEEC work was cross-disciplinary, as I collaborated with researchers in my primary appointment in the <a href="https://science.gsfc.nasa.gov/solarsystem/planetarysystems/">Planetary Systems Lab</a> in the Solar System Exploration Division, as well as the <a href="https://science.gsfc.nasa.gov/astrophysics/exoplanets/">Exoplanets and Stellar Astrophysics Lab</a> in the Astrophysics Science Division. 
 									</p>
 								</header>
-								<!--<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>-->
 							</article>
 
-							<section class="posts">
+
+							<article style="text-align: center;">
+								<h3><a>NASA Work</a></h3>
+								<!--<header class="major">
+									<h5><a>NASA Work</a></h5>
+								</header>-->
+							</article>
+							<section class="posts" style="font-size: smaller;">
 								<article>
 									<header>
-										<h3>The Exoplanet Modeling and Analysis Center</h3>
+										<h5>The Exoplanet Modeling and Analysis Center</h5>
 									</header>
 									<a class="image fit"><img src="images/emac_logo_cropped.jpg" alt="" /></a>
 									<p>A key project of the SEEC collaboration is the <a href="https://emac.gsfc.nasa.gov">Exoplanet Modeling and Analysis Center</a>, which aims to be a community repository for exoplanet modeling tools and resources. I'm on the EMAC development team, working on tool vetting, model development, and implementation. In particular, I've recently helped implement the <a href="https://tools.emac.gsfc.nasa.gov/EBC/">Exoplanet Boundary Calculator</a>, and externally, the <a href="https://psg.gsfc.nasa.gov/apps/exopsg.php">Exoplanetary Spectrum Generator interface</a>. EMAC development is ongoing, and we're currently accepting <a href="https://emac.gsfc.nasa.gov/submissions/">submissions</a> for future tools. </p>
 								</article>
 								<article>
 									<header>
-										<h3>JWST Direct Imaging Simulations</h3>
+										<h5>JWST Direct Imaging Simulations</h5>
 									</header>
 									<a class="image"><img src="images/832b_coro.png"/></a>
 
@@ -75,7 +78,7 @@
 								</article>
 								<article>
 									<header>
-										<h3><a>TESS Planet Candidate Confirmation and Characterization</a></h3>
+										<h5><a>TESS Planet Candidate Confirmation and Characterization</a></h5>
 									</header>
 									<a class="image fit"><img src="images/l98-transit-plot3.png"/></a>
 									<p>I work closely with researchers in the Exoplanets and Stellar Astrophysics Lab on TESS Planet Candidate analysis. When a promising candidate is identified by our pipeline, we work with follow up teams to get other observations to confirm the planetary nature of the transit signal. <a href=https://ui.adsabs.harvard.edu/abs/2019AJ....158...32K/abstract>Recently, we described a system of three terrestrial planets orbiting a nearby M-dwarf, L 98-59.</a> As this is a multiplanet system, it is an interesting system to investigate dynamically. We modeled the dynamic behavior of the system to determine whether or not the system was likely to have detectable transit-timing variations that would allow us to either constrain the masses of the planets, or infer the presence of as-yet undiscovered planets in the system. From our analysis, we found that the transit data is well-described by simple circular orbit models for each individual planet, and we found no significant transit-timing variations.
@@ -85,22 +88,22 @@
 								</article>
 								<article>
 									<header>
-										<h3>Complex Asteroid Gravity Fields</h3>
+										<h5>Complex Asteroid Gravity Fields</h5>
 									</header>
 									<!--<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>-->
 									<p>As an undergraduate at the University of Maryland, I worked with Dr. Doug Hamilton on implementing new algorithms to approximate the complex gravity fields near the surfaces of irregularly shaped asteroids. Far away from an asteroid's surface, approximating the body by a spheroid of equal mass suffices. However, for robotic probe missions that intend on interacting more closely with their targets, a weird, lumpy body may prove challenging or impossible to plot stable trajectories around. Approximating an asteroid by a number of spherical elements would give a very simple solution to calculating the gravity of the individual elements, but is complicated by the fact that spheres do not evenly pack, leading to voids in the volume. Using cubic elements would be convenient, as cubes evenly pack and are often used to approximate complex volumes, but the analytic solution of a cube's gravity is less convenient to work with than a sphere. Asteroids may also have internal voids and other density variations, and our implementation will be flexible enough to accommodate these. When I graduated, we had implemented the algorithm to calculate the gravity of large rectangular prisms, approximated by various cubic subelements. </p>
 								</article>
 								<article>
 									<header>
-										<h3>Orbit Visualization Tools</h3>
+										<h5>Orbit Visualization Tools</h5>
 									</header>
 									<a class="image fit"><img src="images/orbit.png"/></a>
 									<p>In addition to my research work with Dr. Hamilton at UMD, I also took his orbital mechanics class in 2017. Over the years, the UMD Astronomy department has produced a series of educational tools to help students and the public learn astronomical concepts. Over the course of the class, we used the orbital <a href="http://janus.astro.umd.edu/AW/awtools.html#orbits">element viewers and orbit integrators</a>, as well as writing our own tools to help us with the course materials. For planar orbits, these tools work perfectly as the default views were static 2-dimensional plots. However, when expanding to 3-dimensional orbits, some imagination is needed to fully understand how the 2-D plot is colored to represent motion and position out of the plane of the screen. I adapted a 3-D visualization view I'd written while working at the Chandra X-Ray Observatory one summer and some earlier code I had written for the orbits class to provide a <a href="http://janus.astro.umd.edu/orbits/3dview.html">fully interactive 3-D view of an orbit given a set of all six orbital elements</a>.
 									</p>
 								</article>
-								<article>
+								<!--<article>
 									<header>
-										<h3>Unstarted and Unfinished Ideas</h3>
+										<h5>Unstarted and Unfinished Ideas</h5>
 									</header>
 									<p>Some things I'm interested in, but not necessarily working on at the moment:
 										<ul style="text-align: left;">
@@ -112,25 +115,13 @@
 											<li>General space history nerdery</li>
 										</ul>
 									</p>
-								</article>
-								<!--<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h3><a href="#">Augue lorem<br />
-										primis vestibulum</a></h3>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
 								</article>-->
 							</section>
 				</div>
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Jonathan Brande 2019</li><li>Adapted from <a href="https://html5up.net">HTML5 UP</a></li><li>Background Image: <a href="http://heritage.stsci.edu/2016/13/index.html">The Hubble Heritage Project</a></li></ul>
+						<ul><li>&copy; Jonathan Brande 2020</li><li>Adapted from <a href="https://html5up.net">HTML5 UP</a></li><li>Background Image: <a href="http://heritage.stsci.edu/2016/13/index.html">The Hubble Heritage Project</a></li></ul>
 					</div>
 
 
